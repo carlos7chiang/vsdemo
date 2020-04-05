@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using MyJson.Controllers;
 
-namespace MyJson.Controllers
+namespace MyJson
 {
     [ApiController]
     [Route("[controller]")]
